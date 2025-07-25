@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>pseudoclasse</title>
+    <style>
+        div > p{
+            display: none;
+        }
+        div:hover{
+            color: aqua;
+            width: 150px;
+            background-color: brown;
+        }
+        div:hover > p{
+            display: block;
+            background-color: aquamarine;
+            color: #000;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Passe o mouse no texto abaixo</h1>
+    <div>
+        Passe o mouse aqui
+        <br>
+        <p>Surpresa!</p>
+    </div>
+    <p>Fim da experiencia</p>
+</body>
+</html>
