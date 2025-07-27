@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizar</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        #container {
+            background-color: red;
+            background-image: url(imagens/target001.png);
+            height: 400px;
+            width: 700px;
+            background-size: 100% 100%;
+            margin: auto;
+            position: relative;
+        }
+        #assunto {
+            background-color: blue;
+            background-image: url(imagens/target001.png);
+            height: 150px;
+            width: 300px;
+            background-size: 100% 100%;
+            position: absolute;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="assunto">
+
+        </article>
+    </section>
+</body>
+</html>
