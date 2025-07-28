@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela grande</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        table{
+            width: 350px;
+            height: 300px;
+            border-collapse: collapse;
+            background-color: rgba(0, 0, 0, 0.192);
+        }
+        th, td{
+            border: 2px solid black;
+            padding: 8px;
+        }
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fazendo Tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Marcos</td>
+                <td class="num">8.4</td>
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td class="num">7.7</td>
+            </tr>
+            <tr>
+                <td>Joao</td>
+                <td class="num">4.9</td>
+            </tr>
+            <tr>
+                <td>Andre</td>
+                <td class="num">5.4</td>
+            </tr>
+            <tr>
+                <td>Madalena</td>
+                <td class="num">7.8</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td class="num">6.5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Maior nota</th>
+                <td class="num"><strong>8.4</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
