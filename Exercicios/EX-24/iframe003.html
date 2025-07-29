@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe3</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            width: 95vh;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Abra o link pelo iframe</h1>
+    <p><a href="paginas/pag001.html" target="iframe">primeira pagina</a></p>
+    <p><a href="paginas/pag002.html" target="iframe">segunda pagina</a></p>
+    <p><a href="paginas/pag003.html" target="iframe">terceira pagina</a></p>
+    <iframe srcdoc="<h1>escolha um link acima</h1>" frameborder="0" name="iframe"></iframe>
+</body>
+</html>
