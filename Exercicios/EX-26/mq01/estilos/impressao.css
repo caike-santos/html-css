@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header > h1{
+    text-align: center;
+}
+menu{
+    
+    display: none;
+}
+main{
+    padding-top: 10px;
+    width: 600px;
+    display: block;
+    margin: auto;
+    line-height: 1.5em;
+}
+main h2{
+    padding: 10px;
+}
+main p{
+    padding-bottom: 0.8em;
+}
+main::after{
+    content: 'Site criado por Caike Tadeus';
+}
