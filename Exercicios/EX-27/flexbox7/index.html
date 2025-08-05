@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        #pai{
+            display: flex;
+            background-color: antiquewhite;
+            height: 500px;
+            align-items: start;
+        }
+        .filho{
+            padding: 20px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+        <div id="pai">
+            <div class="filho" style="order:2;">A</div>
+            <div class="filho" style="order:4;">B</div>
+            <div class="filho" style="order:5;">C</div>
+            <div class="filho" style="order:-8;">D</div>    
+            <div class="filho" style="order:7;">E</div>
+        </div>
+</body>
+</html>

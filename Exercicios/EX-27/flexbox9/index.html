@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        #pai{
+            display: flex;
+            background-color: antiquewhite;
+            align-items: start;
+            height: 500px;
+            flex-flow: row wrap;
+            align-content: flex-start;
+        }
+        .filho{
+            padding: 20px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            text-align: center;
+            flex-basis: 100px;
+        }
+    </style>
+</head>
+<body>
+        <div id="pai">
+            <div class="filho">A</div>
+            <div class="filho">Espaço maior</div>
+            <div class="filho">C</div>
+            <div class="filho">Espaço muito mais grande do que o anterior</div>    
+            <div class="filho">E</div>
+        </div>
+</body>
+</html>
