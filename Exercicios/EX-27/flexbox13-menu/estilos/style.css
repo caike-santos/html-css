@@ -18,14 +18,14 @@ header{
 }
 h1{
     color: white;
-    border:  2px dotted black;
+    /* border:  2px dotted black; */
     flex: 0 0 150px
 }
 nav{
     
     background-color: white;
     display: flex;
-    border:  2px dotted black;
+    /* border:  2px dotted black; */
     flex-flow: row nowrap;
     flex: 0 0 auto;
     border-radius: 10px;
@@ -50,5 +50,8 @@ a{
 a:hover{
     color: #963FED;
     transition: color .5s;
+}
+p{
+    padding: 10px;
 }
 
